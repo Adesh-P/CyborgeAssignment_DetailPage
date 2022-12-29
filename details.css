@@ -1,0 +1,359 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+.main {
+    width: 100%;
+    background-color: #1f2122;
+    height: auto;
+}
+.container {
+    width: 82%;
+    display: flex;
+    margin: 0px auto;
+    background-color: #1f2122;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.sub1 {
+    width: 25%;
+}
+.sub2 {
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+.sub3 {
+    width: 50%;
+}
+input[type="text"] {
+    background-color: #27292a;
+    text-align: center;
+    height: 45px;
+    margin: 0px auto;
+    border-radius: 30px;
+    width: 235px;
+    font-size: 15px;
+    border: 1px solid #27292a;
+    color: #fff;
+    margin-top: 23px;
+}
+.fa-search {
+    color: #fff;
+    opacity: 0.5;
+}
+.search-icon {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.logo {
+    padding:20px 0px;
+    margin-left: -15px;
+}
+div.sub3 ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+div.sub3 ul li {
+    margin: 12px;
+    margin-top: 20px;
+    padding: 15px;
+}
+div.sub3 ul li a {
+    color: #656565;
+    text-decoration: none;
+    font-size: 14px;
+}
+div.sub3 ul li a:hover {
+    color: #d75985;
+    transition: 1s;
+}
+div.sub3 ul li a.active {
+    color: #d75985;
+}
+.profile {
+    background-color: #27292a;  
+    border-radius: 25px;
+}
+.profile:hover {  
+    background-color: #d75985;
+}
+div.sub3 ul li a.profile-hover:hover {
+    color: #fff;
+}
+.profile-img {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-left: 8px;
+}
+.container2 {
+    width: 82%;
+    margin: 0px auto;
+    background-color: #27292a;
+    padding: 10px;
+    border-radius: 15px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.sub_div_first {
+    width: 92%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.first_banner {
+    width: 31%;
+    max-height: 248px;
+    border-radius: 15px;
+    background-image: url("https://technext.github.io/cyborg/assets/images/feature-left.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.second_banner {
+    width: 67%;
+    min-height: 295px;
+    border-radius: 15px;
+    background-image: url("https://technext.github.io/cyborg/assets/images/feature-right.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fortnite_text {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.sub_div_second, .sub_div_third {
+    width: 92%;
+    margin: 0 auto;
+    background-color: #1f2122;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.sub_div_third_margin {
+    margin-top: 60px;
+    padding-bottom: 35px;
+}
+.sub_div_inner_first, .sub_div_inner_second {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.div_title {
+    width: 49%;
+    border-radius: 15px;
+    background-color: #27292a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    min-height: 100px;
+}
+.div_logo {
+    width: 49%;
+    border-radius: 15px;
+    background-color: #27292a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fortnite_text2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+.sandbox_text {
+    color: #656565;
+    font-size: 17px;
+    font-weight: normal;
+}
+.left_fortnite {
+    margin-left: 20px;
+}
+.right_fortnite {
+    margin-left: 275px;
+}
+.right_fortnite p{
+    color: #fff;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.fa-star-color {
+    color: #ffff00;
+    cursor: pointer; 
+}
+.fa-download-color, .fa-server, .fa-gamepad {
+    color: #d75985;
+    cursor: pointer; 
+}
+.icons {
+    color: #fff;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.inner_second_div_image {
+    width: 31.5%;
+    border-radius: 15px;
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.inner_second_image_first {
+    background-image: url("https://technext.github.io/cyborg/assets/images/details-01.jpg");
+}
+.inner_second_image_second {
+    background-image: url("https://technext.github.io/cyborg/assets/images/details-02.jpg");
+}
+.inner_second_image_third {
+    background-image: url("https://technext.github.io/cyborg/assets/images/details-03.jpg");
+}
+.sub_div_inner_third, .sub_div_inner_fourth, .related_game_div {
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.related_game_div_padding {
+    padding: 30px 0px 0px 0px;
+}
+div.sub_div_inner_third p {
+    color: #656565;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 16px;
+}
+div.sub_div_inner_third p a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+div.sub_div_inner_third p a:hover {
+    color: #d75985;
+}
+.fortnite_btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 1px solid #d75985;
+    color: #d75985;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.fortnite_btn:hover {
+    background-color: #fff;
+    color: #d75985;
+    border: none;
+}
+.related_game_heading {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+}
+.game_text_color {
+    color: #d75985;
+}
+.related_game_inner {
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.related_game_sub_inner {
+    width: 48.5%;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.2);
+}
+.related_game_image {
+    width: 19%;
+    background-color: aqua;
+    min-height: 80px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.related_image_1 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-01.jpg");
+}
+.related_image_2 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-02.jpg");
+}
+.related_image_3 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-03.jpg");
+}
+.related_game_texts {
+    width: 61%;
+
+}
+.related_game_rating {
+    width: 20%;
+}
+.dota_text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sandbox_text {
+    color: #656565;
+    font-size: 16px;
+    font-weight: normal;
+}
+.related_icons {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.footer {
+    width: 100%;
+    margin: 10px auto;
+}
+div.footer p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5;
+}
+div.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+div.footer p a:hover {
+    color: #d75985;
+}
